@@ -255,7 +255,7 @@ weight: 1
 |编号|配置项名称|用途描述|参考值|是否必须|
 |:----:|:---------|:-----|:------|:-------:|
 |1|Type|匹配类型|status、body、headers|是|
-|2|Value|期望的数据||是|
+|2|Value|期望的数据|Type 为 status 时配置HTTP状态码数组，比如： [ 200 ] |是|
 |3|Name|type 为 headers 时，http 头字段名||否|
 
 #### 4.1.2 Endpoints
